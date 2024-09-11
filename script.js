@@ -15,3 +15,17 @@
 
 // let result = mergeAlternately("zia", "shah");
 // console.log(result);
+
+// ==============================   151. Reverse Words in a String ==============================
+
+// var reverseWords = function (s) {
+//   let result = s
+//     .split(/\s+/)
+//     .filter((word) => word.length > 0)
+//     .reverse()
+//     .join(" ");
+//   return result;
+// };
+
+// let result = reverseWords("a good   example");
+// console.log(result);
