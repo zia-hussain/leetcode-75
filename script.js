@@ -29,3 +29,22 @@
 
 // let result = reverseWords("a good   example");
 // console.log(result);
+
+// ==============================   151. Reverse Words in a String ==============================
+
+// function gcd(a, b) {
+//   while (b !== 0) {
+//     [a, b] = [b, a % b];
+//   }
+//   return a;
+// }
+// function gcdOfStrings(str1, str2) {
+//   if (str1 + str2 !== str2 + str1) {
+//     return "";
+//   }
+//   const gcdLength = gcd(str1.length, str2.length);
+//   return str1.substring(0, gcdLength);
+// }
+// console.log(gcdOfStrings("ABCABC", "ABC"));
+// console.log(gcdOfStrings("ABABAB", "ABAB"));
+// console.log(gcdOfStrings("LEET", "CODE"));
