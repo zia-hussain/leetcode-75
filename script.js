@@ -46,5 +46,13 @@
 //   return str1.substring(0, gcdLength);
 // }
 // console.log(gcdOfStrings("ABCABC", "ABC"));
-// console.log(gcdOfStrings("ABABAB", "ABAB"));
-// console.log(gcdOfStrings("LEET", "CODE"));
+
+// ==============================   1431. Kids With the Greatest Number of Candies ==============================
+
+// function kidsWithCandies(candies, extraCandies) {
+
+//   const maxCandies = Math.max(...candies);
+//   return candies.map((candy) => candy + extraCandies >= maxCandies);
+// }
+
+// console.log(kidsWithCandies([2, 3, 5, 1, 3], 3));
