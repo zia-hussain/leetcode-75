@@ -56,3 +56,28 @@
 // }
 
 // console.log(kidsWithCandies([2, 3, 5, 1, 3], 3));
+
+// ==============================   605. Can Place Flowers ==============================
+
+// function canPlaceFlowers(flowerbed, n) {
+//   let count = 0;
+//   let len = flowerbed.length;
+
+//   for (let i = 0; i < len; i++) {
+//     if (
+//       flowerbed[i] === 0 &&
+//       (i === 0 || flowerbed[i - 1] === 0) &&
+//       (i === len - 1 || flowerbed[i + 1] === 0)
+//     ) {
+//       // Plant a flower
+//       flowerbed[i] = 1;
+//       count++;
+//       if (count >= n) {
+//         return true;
+//       }
+//     }
+//   }
+//   return count >= n;
+// }
+
+// console.log(canPlaceFlowers([1, 0, 0, 0, 1], 1)); // Output: true
