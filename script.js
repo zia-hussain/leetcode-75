@@ -81,3 +81,27 @@
 // }
 
 // console.log(canPlaceFlowers([1, 0, 0, 0, 1], 1)); // Output: true
+
+// ==============================   345. Reverse Vowels of a String ==============================
+
+// function reverseVowels(s) {
+//   const vowels = new Set(["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]);
+//   let arr = s.split("");
+//   let left = 0;
+//   let right = arr.length - 1;
+
+//   while (left < right) {
+//     while (left < right && !vowels.has(arr[left])) left++;
+//     while (left < right && !vowels.has(arr[right])) right--;
+//     if (left < right) {
+//       [arr[left], arr[right]] = [arr[right], arr[left]];
+//       left++;
+//       right--;
+//     }
+//   }
+
+//   return arr.join("");
+// }
+
+// console.log(reverseVowels("IceCreAm"));
+// console.log(reverseVowels("leetcode"));
